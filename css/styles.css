@@ -1,0 +1,551 @@
+.playfair-display-sc-regular {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display-sc-regular-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.urbanist {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.index {
+  background-image: url(../asset/fondo-index.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200vh;
+}
+
+
+.menu {
+  padding: 1rem;
+  font-family: "Playfair Display SC";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: left;
+  font-size: large;
+}
+
+.nav1 a {
+  margin-left: 3rem;
+}
+
+.nav2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vender {
+  float: right;
+  margin-left: 11rem;
+}
+
+.vender {
+  margin-right: 3rem;
+  padding: 0rem;
+  font-size: large;
+}
+
+.vender:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.nav1 a:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.portada {
+  color: white;
+  margin-left: 3rem;
+}
+
+.portada h1 {
+  font-family: "Urbanist";
+  font-weight: 200;
+  margin-top: 15rem;
+  font-size: 3rem;
+}
+
+.portada p {
+  font-family: "Urbanist";
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.boton {
+  margin-top: 1.5rem;
+  border: none;
+  background-color: white;
+  display: inline-block;
+  font-family: "Playfair Display SC";
+  border-radius: 8%;
+  width: 12rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.boton a {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Urbanist";
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.pag2 {
+  background-image: url(../asset/fondo-comprar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.formulario {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.form-comprar  {
+  padding: 1.5rem;
+  color: white;
+  margin-left: 30rem;
+  text-align: center;
+  width: 20rem;
+  height: 30rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 10rem;
+  font-family: "Urbanist";
+  font-weight: 150;
+  font-size: 1rem;
+  border: 0.1rem solid white;
+}
+
+.form-comprar h1 {
+  font-family: "Urbanist";
+  font-weight: 250;
+  font-size: 2rem;
+}
+
+.info {
+  width: 15rem;
+  margin-top: 2rem;
+  text-align: center;
+  background-color: rgba(155, 155, 155, 0.3);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.form-comprar p {
+  margin-top: 3rem;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.info::placeholder {
+  color: white;
+  font-family: "Urbanist";
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.boton-form {
+  margin-top: 3rem;
+  border: none;
+  background-color: white;
+  display: inline-block;
+  font-family: "Urbanist";
+  border-radius: 8%;
+  width: 8rem;
+  height: 1.5rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.boton-form:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.cajas-comprar {
+  margin-top: 0;
+  display: inline;
+}
+
+.marcas {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 39.7%;
+  margin-right: 5rem;
+  margin-top: 10rem;
+  margin-right: 20rem;
+}
+
+.imagen img {
+  width: auto;
+  height: 10rem;
+  padding: 3.5rem;
+  opacity: 0.7;
+}
+
+.pag3 {
+  background-image: url(../asset/fondo-galeria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+  
+}
+
+.pag3 h1 {
+  font-family: "Urbanist";
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-top: 5rem;
+}
+
+.pag3 section img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 70%;
+}
+
+.cajas-fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15%;
+  max-width: 100%;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+.fotos {
+  width: 75%;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.fotos img {
+  opacity: 0.85;
+  border-radius: 8%;
+  border: 0.1rem solid white;
+}
+
+.pag4 {
+  background-image: url(../asset/fondo-contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+}
+
+.vender-auto {
+  background-image: url(../asset/fondo-vendenos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formulario_2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-contacto {
+  padding: 1.5rem;
+  width: 100rem;
+  height: 30rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 10rem;
+  border: 0.1rem solid white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.form-contacto h1 {
+  display: flex;
+  font-family: "Urbanist";
+  font-weight: 150;
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+._contacto {
+  width: 16rem;
+  height: 0.1rem;
+  text-align: center;
+  background-color: rgba(155, 155, 155, 0.3);
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+._contacto::placeholder {
+  color: white;
+  font-family: "Urbanist";
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.filas-contacto {
+  gap: 10rem;
+  display: flex;
+  position: relative;
+}
+
+.consulta-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.consulta {
+  width: 32rem;
+  text-align: center;
+  background-color: rgba(155, 155, 155, 0.3);
+  border-radius: 0.3rem;
+  border: none;
+  height: 15rem;
+}
+
+.consulta::placeholder {
+  color: white;
+  font-family: "Urbanist";
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.columnas {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.boton-contacto {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 2.5rem;
+}
+
+.boton_1 {
+  border: none;
+  background-color: white;
+  font-family: "Urbanist";
+  border-radius: 8%;
+  width: 8rem;
+  height: 1.5rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.boton_1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.form-vender {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-ventas {
+  padding: 1.5rem;
+  width: 45rem;
+  height: 20rem;
+  margin-top: 8rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 0.1rem solid white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.div-ventas {
+    gap: 5rem;
+    display: flex;
+    position: relative;
+}
+
+.columnas-ventas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.ventas::placeholder {
+    color: white;
+    font-family: "Urbanist";
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.texto-venta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ventas {
+  width: 15rem;
+  height: 0.1rem;
+  text-align: center;
+  background-color: rgba(155, 155, 155, 0.3);
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.texto-venta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Urbanist";
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+.titulo-ventas, .form-ventas {
+  position: absolute;
+}
+
+.titulo-ventas h1 {
+  display: flex;
+  font-family: "Urbanist";
+  font-weight: 300;
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.titulo-ventas h3 {
+  display: flex;
+  font-family: "Urbanist";
+  font-weight: 200;
+  font-size: 1.7rem;
+  color: white;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.subtitulo_ventas {
+  text-align: center;
+  width: 85%;
+  display: flex;
+  font-family: "Urbanist";
+  font-weight: 100;
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-left: 45rem;
+  position: absolute;
+}
+
+.boton-vender {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 0rem;
+  padding-left: 5rem;
+}
+
+.boton_2 {
+  border: none;
+  background-color: white;
+  font-family: "Urbanist";
+  border-radius: 8%;
+  width: 8rem;
+  height: 1.5rem;
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+}
+
+.boton_2:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.grid-hijo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 135rem;
+  margin-top: 8rem;
+}
